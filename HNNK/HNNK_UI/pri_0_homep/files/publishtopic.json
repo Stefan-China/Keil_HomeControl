@@ -1,0 +1,19 @@
+{
+    "11111": "11111/app_device",
+    "11112": "11112/app_device",
+    "11115": "11115/app_device",
+    "112": "112/app_device",
+    "115": "115/app_device",
+    "118": "118/app_device",
+    "119": "119/app_device",
+    "6789": "6789/app_device",
+    "6789000": "6789000/app_device",
+    "adddevicesubstp": "broadcast/device_app",
+    "airconditioner": "1234/app_device",
+    "bed_curtain": "3809422/app_device",
+    "ir": "2345/app_device",
+    "light": "6789000/app_device",
+    "nursingbed": "1234/app_device",
+    "plug": "6789/app_device",
+    "tv": "1234/app_device"
+}

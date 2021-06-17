@@ -1,0 +1,32 @@
+{
+  "head": {
+    "cmd": "0000",
+    "session_id": "",
+    "time_stamp": "255564354534535-345234-452345",
+    "version": "4.0",
+    "uuid": ""
+  },
+  "body": {
+    "attributes": [
+      {
+        "status": {
+          "errcode": "-1"
+        }
+      },
+      {
+        "infos": {
+          "os": "v1824BA",
+          "type": "app"
+        }
+      }
+    ],
+    "datas": [
+      {
+        "id": "12345678901",
+        "password": "123456",
+        "zone": "zn",
+        "type": "phone"
+      }
+    ]
+  }
+}

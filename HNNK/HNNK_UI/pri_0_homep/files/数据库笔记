@@ -1,0 +1,3 @@
+create table devices(id int primary key, device_type varchar(255) not null, number int not null);
+insert into devices(device_type, number) values(light, 1);
+insert into devices values(2,light, 2);

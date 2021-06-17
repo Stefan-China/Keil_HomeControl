@@ -1,0 +1,1 @@
+candidate:1962954424 1 tcp 1518149375 192.168.8.112 2285 typ host tcptype passive generation 0 ufrag 3lrk network-id 1 network-cost 50

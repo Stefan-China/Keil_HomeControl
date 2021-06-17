@@ -1,0 +1,92 @@
+{
+	"power":
+	{
+		"devicetype": "ir",
+		"sub_device":"tv",
+		"key_name": "开关",
+		"ircode_length":11,
+		"ircode":[1,1,4,4,1,4,1,4,1,4,4]
+	},
+	"up":
+	{
+		"devicetype": "ir",
+		"sub_device":"tv",
+		"key_name": "上",
+		"ircode_length":11,
+		"ircode":[1,3,1,2,3,1,1,2,2,3,4]
+	},
+	"down":
+	{
+		"devicetype": "ir",
+		"sub_device":"tv",
+		"key_name": "下",
+		"ircode_length":11,
+		"ircode":[1,3,1,2,3,1,1,2,3,3,1]
+	},
+	"left":
+	{
+		"devicetype": "ir",
+		"sub_device":"tv",
+		"key_name": "左",
+		"ircode_length":11,
+		"ircode":[1,3,1,2,3,1,1,3,4,2,2]
+	},
+	"right":
+	{
+		"devicetype": "ir",
+		"sub_device":"tv",
+		"key_name": "右",
+		"ircode_length":11,
+		"ircode":[1,3,1,2,3,1,1,4,1,1,3]
+	},
+	"confirm":
+	{
+		"devicetype": "ir",
+		"sub_device":"tv",
+		"key_name": "确认",
+		"ircode_length":11,
+		"ircode":[1,3,1,2,3,1,1,4,2,1,4]
+	},
+	"home":
+	{
+		"devicetype": "ir",
+		"sub_device":"tv",
+		"key_name": "主页",
+		"ircode_length":11,
+		"ircode":[1,3,1,2,3,1,1,3,1,2,3]
+	},
+	"return":
+	{
+		"devicetype": "ir",
+		"sub_device":"tv",
+		"key_name": "返回",
+		"ircode_length":11,
+		"ircode":[1,3,1,2,3,1,1,2,4,3,2]
+	},
+	"menu":
+	{
+		"devicetype": "ir",
+		"sub_device":"tv",
+		"key_name": "菜单",
+		"ircode_length":11,
+		"ircode":[1,3,1,2,3,1,1,2,1,3,3]
+	},
+	"volumeup":
+	{
+		"devicetype": "ir",
+		"sub_device":"tv",
+		"key_name": "音量+",
+		"ircode_length":11,
+		"ircode":[1,3,1,2,3,1,1,4,3,1,1]
+	},
+	"volumedown":
+	{
+		"devicetype": "ir",
+		"sub_device":"tv",
+		"key_name": "音量-",
+		"ircode_length":11,
+		"ircode":[1,3,1,2,3,1,1,4,4,1,2]
+	}	
+}
+		
+			

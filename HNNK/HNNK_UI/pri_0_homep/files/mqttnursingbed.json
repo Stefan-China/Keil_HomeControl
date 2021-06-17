@@ -1,0 +1,44 @@
+{
+	"curveleg":
+	{
+	    "hexArry": [0,255,1,254]
+	},
+	"liftleg":
+	{
+		"hexArry": [0,255,2,253]
+	},
+	"dfctopen":
+	{
+		"hexArry": [128,127,0,255]
+	},
+	"dfctclose":
+	{
+		"hexArry": [64,191,0,255]
+	},
+	"liftback":
+	{
+		"hexArry": [0,255,32,223]
+	},
+	"lying":
+	{
+		"hexArry": [0,255,16,239]
+	},
+	"turnleft":
+	{
+		"hexArry": [0,255,64,191]
+	},
+	"turnright":
+	{
+		"hexArry": [0,255,128,127]
+	},
+	"reset":
+	{
+		"hexArry": [0,255,4,251]
+	},
+	"sit":
+	{
+		"hexArry": [0,255,8,247]
+	}
+}
+		
+			

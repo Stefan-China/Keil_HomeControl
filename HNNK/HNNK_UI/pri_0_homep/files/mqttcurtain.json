@@ -1,0 +1,23 @@
+{
+	
+		"open":
+		{
+			"devicetype": "bed_curtain",
+			"action": "open",
+			"numbers":1
+		},
+		"close":
+		{
+			"devicetype": "bed_curtain",
+			"action": "close",
+			"number":1
+		},
+		"stop":
+		{
+			"devicetype": "bed_curtain",
+			"action": "stop",
+			"number":1
+		}
+}
+		
+			

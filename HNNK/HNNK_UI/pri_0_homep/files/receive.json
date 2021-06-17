@@ -1,0 +1,24 @@
+{
+    "body": {
+        "attributes": [
+            {
+                "status": {
+                    "errcode": "00000"
+                }
+            }
+        ],
+        "datas": [
+            {
+                "host_ip": "192.168.1.101",
+                "host_mac": "a0:9d:c1:e4:44:54",
+                "id": "a09dc1e44454"
+            }
+        ]
+    },
+    "head": {
+        "cmd": "0000",
+        "session_id": "",
+        "time_stamp": "255564354534535-345234-452345",
+        "version": "4.0"
+    }
+}

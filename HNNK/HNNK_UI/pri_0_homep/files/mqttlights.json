@@ -1,0 +1,19 @@
+{
+	"open":
+	{
+		"devicetype": "plug",
+		"power": "on",
+		"numbers":1,
+		"channel": 1
+	},
+	"close":
+	{
+		"devicetype": "plug",
+		"power": "off",
+		"numbers":1,
+		"channel": 1
+	}
+	
+}
+		
+			

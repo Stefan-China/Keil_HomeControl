@@ -1,0 +1,47 @@
+-ID:/Qt/Qt5.9.8new/5.9.8/msvc2015_64/mkspecs/win32-msvc
+-IC:/Users/Raytine/Desktop/oldproject/hnnk_standard
+-IC:/Users/Raytine/Desktop/oldproject/hnnk_standard/HNNK_UI/Update191106/libs
+-IC:/Users/Raytine/Desktop/oldproject/hnnk_standard/HNNK_UI/Update191106
+-IC:/Users/Raytine/Desktop/oldproject/hnnk_standard/HNNK_UI/Update191106/input2018
+-IC:/Users/Raytine/Desktop/oldproject/hnnk_standard/openssl_include
+-IC:/Users/Raytine/Desktop/oldproject/hnnk_standard/include
+-IC:/Users/Raytine/Desktop/oldproject/hnnk_standard/HNNK_UI/pri_0_homep
+-IC:/Users/Raytine/Desktop/oldproject/hnnk_standard/HNNK_UI/pri_0_homep/include
+-IC:/Users/Raytine/Desktop/oldproject/hnnk_standard/HNNK_UI/pri_0_homep/include/QtMqtt
+-IC:/Users/Raytine/Desktop/oldproject/hnnk_standard/HNNK_UI/pri_7_call/include
+-IC:/Users/Raytine/Desktop/oldproject/hnnk_standard/HNNK_UI/pri_7_call/webrtcqt/libs
+-IC:/Users/Raytine/Desktop/oldproject/hnnk_standard/HNNK_UI/pri_7_call/webrtcqt
+-IC:/Users/Raytine/Desktop/oldproject/hnnk_standard/HNNK_UI/jsonrpc-qt
+-IC:/Users/Raytine/Desktop/oldproject/hnnk_standard/HNNK_UI/jsonrpc-qt/include
+-IC:/Users/Raytine/Desktop/oldproject/hnnk_standard/HNNK_UI/Update191106/input2018
+-IC:/Users/Raytine/Desktop/oldproject/hnnk_standard/HNNK_UI/Update191106/input2018/googlepinyin
+-IC:/Users/Raytine/Desktop/oldproject/hnnk_standard/HNNK_UI/Update191106/VoiceRecognize/include
+-ID:/Qt/Qt5.9.8new/5.9.8/msvc2015_64/include
+-ID:/Qt/Qt5.9.8new/5.9.8/msvc2015_64/include/QtWebEngineWidgets
+-ID:/Qt/Qt5.9.8new/5.9.8/msvc2015_64/include/QtPrintSupport
+-ID:/Qt/Qt5.9.8new/5.9.8/msvc2015_64/include/QtMultimediaWidgets
+-ID:/Qt/Qt5.9.8new/5.9.8/msvc2015_64/include/QtWidgets
+-ID:/Qt/Qt5.9.8new/5.9.8/msvc2015_64/include/QtMultimedia
+-ID:/Qt/Qt5.9.8new/5.9.8/msvc2015_64/include/QtWebEngineCore
+-ID:/Qt/Qt5.9.8new/5.9.8/msvc2015_64/include/QtQuick
+-ID:/Qt/Qt5.9.8new/5.9.8/msvc2015_64/include/QtGui
+-ID:/Qt/Qt5.9.8new/5.9.8/msvc2015_64/include/QtANGLE
+-ID:/Qt/Qt5.9.8new/5.9.8/msvc2015_64/include/QtSql
+-ID:/Qt/Qt5.9.8new/5.9.8/msvc2015_64/include/QtWebChannel
+-ID:/Qt/Qt5.9.8new/5.9.8/msvc2015_64/include/QtQml
+-ID:/Qt/Qt5.9.8new/5.9.8/msvc2015_64/include/QtWebSockets
+-ID:/Qt/Qt5.9.8new/5.9.8/msvc2015_64/include/QtNetwork
+-ID:/Qt/Qt5.9.8new/5.9.8/msvc2015_64/include/QtConcurrent
+-ID:/Qt/Qt5.9.8new/5.9.8/msvc2015_64/include/QtXml
+-ID:/Qt/Qt5.9.8new/5.9.8/msvc2015_64/include/QtBluetooth
+-ID:/Qt/Qt5.9.8new/5.9.8/msvc2015_64/include/QtSerialPort
+-ID:/Qt/Qt5.9.8new/5.9.8/msvc2015_64/include/QtPositioning
+-ID:/Qt/Qt5.9.8new/5.9.8/msvc2015_64/include/QtCore
+-I.
+-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE
+-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE
+-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt
+-IC:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um
+-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared
+-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um
+-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt

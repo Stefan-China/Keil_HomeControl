@@ -1,0 +1,71 @@
+1.说明
+   phone为手机号
+   gatewayid 为主机id  通过udp组播获取
+   num 为房间第几设备 1 2 3 4 
+2. 灯
+  2.1 订阅 gatewayid/light/num   
+  2.2 发布 phone/light/num 
+  2.3 发送
+       {
+	     "power": "off/on",
+	     "number": 1/2/3
+       }
+	   说明 "number": 对应房间灯序列
+  2.4 返回结果
+       {
+	     "power": "off/on",
+	     "number": 1/2/3
+       }
+	   
+	   
+	   
+3. 护理床
+  3.1 订阅 gatewayid/nuringbed/num    
+  3.2 发布 phone/nuringbed/num   
+  3.3 发送
+       {
+	    "hexArry": [0,255,64,191]
+       }
+	   说明 "hexArry" 四个字节数组，包括护理床10种控制命令
+	   
+  3.4 返回结果
+       {
+	     "hexArry": [0,255,64,191]
+       }
+	   
+	   
+	   
+4. 红外转发器
+  4.1 订阅 gatewayid/irdevice/num    
+  4.2 发布 phone/irdevice/num   
+  4.3 发送/控制设备
+    {
+       "device": "tv/aircondition",
+	   "key_name" "温度+/-等",
+	   "ircode_length": 21,
+	   "ircode": [131,6,4,146,0,4,128,0,0,0,96,128,92,174,0,37,0,0,48,20,1]
+	}
+	说明 "ircode_length" 红外码长度，"ircode" 红外码
+  4.4 返回控制结果
+     {
+       "device": "tv/aircondition",
+	   "key_name" "温度+/-等",
+	   "state": "ok/error"
+	 }
+  
+  4.5 发送/学习按键
+	 {
+	   "device": "tv/aircondition",
+	   "key_name" "温度+/-等"
+	   "learn_mode": "on/off"
+	 }
+  4.6 返回/学习按键 
+	 {
+       "device": "tv/aircondition",
+	   "key_name" "温度+/-等",
+	   "ircode_length": 21,
+	   "ircode": [131,6,4,146,0,4,128,0,0,0,96,128,92,174,0,37,0,0,48,20,1]
+	 }
+	 
+	 学习完后需要关闭学习状态
+  

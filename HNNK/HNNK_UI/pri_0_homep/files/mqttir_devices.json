@@ -1,0 +1,100 @@
+{
+	"open":
+	{
+		"device":"aircondition",
+		"key_name":"开机",
+		"ircode_length": 21,
+		"ircode":[131,6,4,146,0,4,128,0,0,0,96,128,92,174,0,37,0,0,48,20,1]
+	},
+	"close":
+	{
+		"device":"aircondition",
+		"key_name":"关机",
+		"ircode_length": 21,
+		"ircode":[131,6,4,146,0,4,128,0,0,0,96,128,92,174,0,37,0,0,32,20,17]
+	},
+	"tempup":
+	{
+		"device":"aircondition",
+		"key_name":"温度+",
+		"ircode_length": 21,
+		"ircode":[131,6,0,162,0,4,128,0,0,0,96,128,92,154,0,2,0,0,48,20,38]
+	},
+	"tempdown":
+	{
+		"device":"aircondition",
+		"key_name":"温度-",
+		"ircode_length": 21,
+		"ircode":[131,6,0,146,0,4,128,0,0,0,96,128,92,170,0,2,0,0,48,20,38]
+	},
+	"windirectionsweep":
+	{
+		"device":"aircondition",
+		"key_name":"上风",
+		"ircode_length": 21,
+		"ircode":[131,6,4,146,0,4,128,0,0,0,0,128,92,174,0,37,0,0,32,20,35]
+	},
+	"windirectionstatic":
+	{
+		"device":"aircondition",
+		"key_name":"定向",
+		"ircode_length": 21,
+		"ircode":[131,6,4,146,0,4,128,0,0,0,96,128,92,174,0,37,0,0,32,20,35]
+	},
+	"windspeedmute":
+	{
+		"device":"aircondition",
+		"key_name":"靜音",
+		"ircode_length": 21,
+		"ircode":[131,6,0,146,0,4,128,0,0,0,96,128,28,174,4,11,0,0,32,20,43]
+	},
+	"windspeedlow":
+	{
+		"device":"aircondition",
+		"key_name":"风速低",
+		"ircode_length": 21,
+		"ircode":[131,6,3,146,0,4,128,0,0,0,96,128,92,174,0,17,0,0,32,20,53]
+	},
+	"windspeedmiddle":
+	{
+		"device":"aircondition",
+		"key_name":"风速中",
+		"ircode_length": 21,
+		"ircode":[131,6,3,146,0,4,128,0,0,0,96,128,92,174,0,17,0,0,32,20,53]
+	},
+	"windspeedhigh":
+	{
+		"device":"aircondition",
+		"key_name":"风速高",
+		"ircode_length": 21,
+		"ircode":[131,6,1,146,0,4,128,0,0,0,96,128,92,174,0,17,0,0,32,20,53]
+	},
+	"windspeedpowerful":
+	{
+		"device":"aircondition",
+		"key_name":"风速强力",
+		"ircode_length": 21,
+		"ircode":[131,6,0,146,0,4,128,0,0,0,96,128,220,174,0,4,0,0,32,20,32]
+	},
+	"windspeedauto":
+	{
+		"device":"aircondition",
+		"key_name":"风速自动",
+		"ircode_length": 21,
+		"ircode":[131,6,0,146,0,4,128,0,0,0,96,128,92,174,0,17,0,0,32,20,53]
+	},
+	"refrigeration":
+	{
+		"device":"aircondition",
+		"key_name":"制冷",
+		"ircode_length": 21,
+		"ircode":[131,6,4,146,0,4,128,0,0,0,96,128,92,174,0,37,0,0,32,20,34]
+	},
+	"heat":
+	{
+		"device":"aircondition",
+		"key_name":"制热",
+		"ircode_length": 21,
+		"ircode":[131,6,4,146,64,4,128,64,0,0,96,128,92,174,0,37,0,0,32,20,34]
+	}
+}

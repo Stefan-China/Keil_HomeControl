@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no" />
+
+    <title>CanvasLayer</title>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=Sr7GYB8zG6So4fS32wqypmL4a8rfExuk"></script>
+
+    <style type="text/css">
+    body, html,#container {width: 100%;height: 100%;overflow: hidden;margin:0;font-family:"微软雅黑";}
+
+    </style>
+    <title>添加3D控件</title>
+</head>
+<body>
+
+    <div id="container" style="height:100%;-webkit-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;"></div>
+            </div>
+
+</body>
+</html>
+<script
+    src="qwebchannel.js">
+
+</script>
+<script
+    src="DrawingManager.js">
+
+</script>
+
+<script type="text/javascript">
+    var mp = new BMap.Map("container");
+    mp.centerAndZoom(new BMap.Point(113.034425,23.154313), 16
+    );
+    mp.enableScrollWheelZoom(true);
+
+    //mp.setMapType(BMAP_EARTH_MAP);      // 设置地图类型为地球模式
+
+    //添加地图类型控件
+    mp.addControl(new BMap.MapTypeControl({
+            mapTypes:[
+        BMAP_HYBRID_MAP,
+        BMAP_NORMAL_MAP
+
+    ],offset: new BMap.Size(10, 0)}   ));
+
+
+
+    // 创建城市选择控件
+    var cityControl = new BMap.CityListControl({anchor: BMAP_ANCHOR_TOP_LEFT});
+    cityControl.setOffset(new BMap.Size(150, 5));
+    mp.addControl(cityControl);
+
+    //控件
+    var top_left_control = new BMap.ScaleControl({anchor:BMAP_ANCHOR_TOP_LEFT});// 左上角，添加比例尺
+    var top_left_navigation = new BMap.NavigationControl();  //左上角，添加默认缩放平移控件
+    mp.addControl(top_left_control);
+    mp.addControl( top_left_navigation) ;
+
+    //全景图
+    mp.addTileLayer(new BMap.PanoramaCoverageLayer());
+    var stCtrl = new BMap.PanoramaControl(); //构造全景控件
+    stCtrl.setOffset(new BMap.Size(20, 30));
+    mp.addControl(stCtrl);//添加全景控件
+
+    // 创建房子图标
+    var myIcon = new BMap.Icon("qrc:/Baidu_JS/home.png", new BMap.Size(60, 60));
+    var marker1 = new BMap.Marker(new BMap.Point(113.034425,23.154313),{
+    icon: myIcon
+});
+    mp.addOverlay(marker1);
+
+    //右键菜单
+    var menu = new BMap.ContextMenu();
+    var txtMenuItem = [
+        {
+            text: '放大一级',
+            callback: function () {
+                mp.zoomIn();
+            }
+        }, {
+            text: '缩小一级',
+            callback: function () {
+                mp.zoomOut();
+            }
+        }
+    ];
+    for (var i = 0; i < txtMenuItem.length; i++) {
+        menu.addItem(new BMap.MenuItem(txtMenuItem[i].text, txtMenuItem[i].callback, 100));
+    }
+    mp.addContextMenu(menu);
+
+
+
+    new QWebChannel(qt.webChannelTransport, function(c) {
+         mw = c.objects.window;
+     });
+
+
+     mp.addEventListener("click",function(e){
+         mw.RcvPoint(e.point.lng,e.point.lat);
+     });
+
+     function SetPoint(lng,lat){
+         mp.setCenter(new BMap.Point(lng,lat));
+         var marker2 = new BMap.Marker(new BMap.Point(lng,lat));
+         mp.addOverlay(marker2);
+     }
+     var circle
+     function drawCircle(lng,lat){
+     // 绘制圆
+      circle= new BMap.Circle(new BMap.Point(lng,lat), 300, {
+         strokeColor: 'blue',
+         strokeWeight: 2,
+         strokeOpacity: 0.5
+     });
+     mp.addOverlay(circle);
+    // circle.enableEditing()
+     }
+
+     function closeEdit() {
+
+        // circle.disableEditing();
+     }
+     function removeOverlay() {
+         mp.clearOverlays();
+     }
+
+    
+</script>

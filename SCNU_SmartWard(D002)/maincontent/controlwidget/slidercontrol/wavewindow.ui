@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WaveWindow</class>
+ <widget class="QMainWindow" name="WaveWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1116</width>
+    <height>659</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SCUTBCI</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/image/images/scutbci.png</normaloff>:/image/images/scutbci.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QCustomPlot" name="customPlot" native="true"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QScrollBar" name="horizontalScrollBar">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1116</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="action_Open"/>
+    <addaction name="action_Netreader"/>
+    <addaction name="separator"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_Open"/>
+   <addaction name="action_Netreader"/>
+   <addaction name="action_Add_Event"/>
+   <addaction name="action_Record"/>
+   <addaction name="action_Start_Acquisition"/>
+   <addaction name="action_Stop_Acquisition"/>
+   <addaction name="action_Clear"/>
+   <addaction name="action_Zoom_In_Vertical"/>
+   <addaction name="action_Zoom_Out_Vertical"/>
+   <addaction name="action_Zoom_In_Horizontal"/>
+   <addaction name="action_Zoom_Out_Horizontal"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="action_Open">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/image/images/icons8-opened-folder-64.png</normaloff>:/image/images/icons8-opened-folder-64.png</iconset>
+   </property>
+   <property name="text">
+    <string>open</string>
+   </property>
+   <property name="toolTip">
+    <string>打开文件</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="action_Save">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/image/images/ic_save_black_24dp.png</normaloff>:/image/images/ic_save_black_24dp.png</iconset>
+   </property>
+   <property name="text">
+    <string>save</string>
+   </property>
+   <property name="toolTip">
+    <string>保存文件</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="action_Netreader">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/image/images/icons8-settings-64.png</normaloff>:/image/images/icons8-settings-64.png</iconset>
+   </property>
+   <property name="text">
+    <string>settins</string>
+   </property>
+   <property name="toolTip">
+    <string>连接串口</string>
+   </property>
+  </action>
+  <action name="action_Add_Event">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/image/images/icons8-finish-flag-64.png</normaloff>:/image/images/icons8-finish-flag-64.png</iconset>
+   </property>
+   <property name="text">
+    <string>add event</string>
+   </property>
+   <property name="toolTip">
+    <string>点此测试打标</string>
+   </property>
+  </action>
+  <action name="action_Add_Event_2">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/image/images/icons8-finish-flag-64.png</normaloff>:/image/images/icons8-finish-flag-64.png</iconset>
+   </property>
+   <property name="text">
+    <string>add event</string>
+   </property>
+   <property name="toolTip">
+    <string>新加标记2</string>
+   </property>
+  </action>
+  <action name="action_Start_Acquisition">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/image/images/icons8-play-64.png</normaloff>:/image/images/icons8-play-64.png</iconset>
+   </property>
+   <property name="text">
+    <string>start_Acquisition</string>
+   </property>
+   <property name="toolTip">
+    <string>开始</string>
+   </property>
+  </action>
+  <action name="action_Stop_Acquisition">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/image/images/icons8-stop-64.png</normaloff>:/image/images/icons8-stop-64.png</iconset>
+   </property>
+   <property name="text">
+    <string>stop_Acquisition</string>
+   </property>
+   <property name="toolTip">
+    <string>停止</string>
+   </property>
+  </action>
+  <action name="action_Record">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/image/images/icons8-record-96.png</normaloff>:/image/images/icons8-record-96.png</iconset>
+   </property>
+   <property name="text">
+    <string>start_Record</string>
+   </property>
+   <property name="toolTip">
+    <string>点此记录波形</string>
+   </property>
+  </action>
+  <action name="action_Clear">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/image/images/icons8-broom-64.png</normaloff>:/image/images/icons8-broom-64.png</iconset>
+   </property>
+   <property name="text">
+    <string>clear</string>
+   </property>
+   <property name="toolTip">
+    <string>清除</string>
+   </property>
+  </action>
+  <action name="action_Zoom_In_Vertical">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/image/images/ic_zoom_in_v_black_24dp.png</normaloff>:/image/images/ic_zoom_in_v_black_24dp.png</iconset>
+   </property>
+   <property name="text">
+    <string>zoom in vertical</string>
+   </property>
+   <property name="toolTip">
+    <string>垂直放大</string>
+   </property>
+  </action>
+  <action name="action_Zoom_Out_Vertical">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/image/images/ic_zoom_out_v_black_24dp.png</normaloff>:/image/images/ic_zoom_out_v_black_24dp.png</iconset>
+   </property>
+   <property name="text">
+    <string>zoom out vertical</string>
+   </property>
+   <property name="toolTip">
+    <string>垂直缩小</string>
+   </property>
+  </action>
+  <action name="action_Zoom_In_Horizontal">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/image/images/ic_zoom_in_h_black_24dp.png</normaloff>:/image/images/ic_zoom_in_h_black_24dp.png</iconset>
+   </property>
+   <property name="text">
+    <string>zoom in horizontal</string>
+   </property>
+   <property name="toolTip">
+    <string>水平放大</string>
+   </property>
+  </action>
+  <action name="action_Zoom_Out_Horizontal">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/image/images/ic_zoom_out_h_black_24dp.png</normaloff>:/image/images/ic_zoom_out_h_black_24dp.png</iconset>
+   </property>
+   <property name="text">
+    <string>zoom out horizontal</string>
+   </property>
+   <property name="toolTip">
+    <string>水平缩小</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header location="global">qcustomplot/qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="myimages.qrc"/>
+ </resources>
+ <connections/>
+</ui>

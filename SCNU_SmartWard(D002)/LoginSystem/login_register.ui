@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Login_Register</class>
+ <widget class="QWidget" name="Login_Register">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>911</width>
+    <height>484</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="font">
+   <font>
+    <family>黑体</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Login_Register</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#Login_Register{
+border-radius:10px;
+}</string>
+  </property>
+  <widget class="QPushButton" name="btn_Min">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>17</y>
+     <width>35</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#btn_Min
+{
+     border-image:url(:/image/Min01.png);
+}
+QPushButton:hover#btn_Min
+{
+     border-image:url(:/image/Min_hover.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_Close">
+   <property name="geometry">
+    <rect>
+     <x>858</x>
+     <y>17</y>
+     <width>35</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#btn_Close
+{
+      border-image: url(:/image/Close01.png);
+}
+QPushButton:hover#btn_Close
+{
+      border-image: url(:/image/Close_hover.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_err">
+   <property name="geometry">
+    <rect>
+     <x>508</x>
+     <y>138</y>
+     <width>250</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(251, 173, 88);
+font-size:16px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="ComboBox" name="combo_account">
+   <property name="geometry">
+    <rect>
+     <x>508</x>
+     <y>177</y>
+     <width>317</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox{
+	font-size:20px;
+}
+QComboBox#combo_account{
+border:1px solid rgb(211,211,211);
+height: 50px;
+}
+QComboBox:hover#combo_account{
+border:1px solid rgb(255,170,0);
+}
+QComboBox::down-arrow#combo_account{
+background-image: url(:/image/comboBox_btn (2).png);
+background-repeat:no-repeat;
+background-position:center;
+height:5px;
+width:12px;
+}
+QComboBox::down-arrow:hover#combo_account{
+background-image: url(:/image/comboBox_btn (1).png);
+background-repeat:no-repeat;
+background-position:center;
+height:5px;
+width:12px;
+}
+QComboBox::down-arrow:checked#combo_account{
+background-image: url(:/image/comboBox_btn (3).png);
+background-repeat:no-repeat;
+background-position:center;
+height:5px;
+width:12px;
+}
+QComboBox::drop-down{
+	background-color: rgb(255,255,255);
+}   
+
+QComboBox QAbstractItemView::item {
+    height: 45px;   
+/* 项的高度（设置pComboBox-&gt;setView(new QListView());后，该项才起作用） */
+}
+
+/* QComboBox中的垂直滚动条 */
+QComboBox QAbstractScrollArea QScrollBar:vertical {
+    width: 10px;
+    background-color: #d0d2d4;   /* 空白区域的背景色  灰色green */
+}
+ 
+QComboBox QAbstractScrollArea QScrollBar::handle:vertical {
+    border-radius: 5px;   /* 圆角 */
+    background: rgb(160,160,160);   /* 小方块的背景色深灰lightblue */
+}
+ 
+QComboBox QAbstractScrollArea QScrollBar::handle:vertical:hover {
+    background: rgb(90, 91, 93);   /* 越过小方块的背景色yellow */
+}
+</string>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="MyLineEdit" name="lineEdit_password">
+   <property name="geometry">
+    <rect>
+     <x>508</x>
+     <y>222</y>
+     <width>317</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+	font-size:20px;
+}
+QLineEdit#lineEdit_password{
+border:1px solid rgb(211,211,211);
+}
+QLineEdit:hover#lineEdit_password{
+border:1px solid rgb(255,170,0);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_autoLogin">
+   <property name="geometry">
+    <rect>
+     <x>508</x>
+     <y>290</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::TabFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+	font-size:18px;
+}
+QCheckBox::indicator:unchecked{
+    image:url(:/image/unchecked_1.png);
+}
+
+QCheckBox::indicator:unchecked:hover{
+    image:url(:/image/unchecked_2.png);
+}
+
+QCheckBox::indicator:checked{
+    image:url(:/image/checked_1.png);
+}
+
+QCheckBox::indicator:checked:hover{
+    image:url(:/image/checked_2.png);
+}</string>
+   </property>
+   <property name="text">
+    <string>下次自动登录</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_Login">
+   <property name="geometry">
+    <rect>
+     <x>508</x>
+     <y>320</y>
+     <width>317</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::TabFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	font-size:24px;
+}
+QPushButton#btn_Login{
+background-color:#58ACFA;
+color: rgb(255, 245, 237);
+border-radius:5px;
+}
+QPushButton:hover#btn_Login{
+background-color:#A9E2F3;
+color: rgb(255, 245, 237);
+border-radius:5px;
+}
+
+
+
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>登录</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_RegisterAccount">
+   <property name="geometry">
+    <rect>
+     <x>508</x>
+     <y>410</y>
+     <width>91</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	font-size:20px;
+}
+QLabel#label_RegisterAccount
+{
+color: #0080FF;
+}
+QLabel:hover#label_RegisterAccount
+{
+color: #01DFD7;
+}</string>
+   </property>
+   <property name="text">
+    <string>注册账号</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_ForgetPW">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>410</y>
+     <width>101</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	font-size:20px;
+}
+QLabel#label_ForgetPW
+{
+color: #0080FF;
+}
+QLabel:hover#label_ForgetPW
+{
+color:#01DFD7;
+}</string>
+   </property>
+   <property name="text">
+    <string>忘记密码？</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_picLove">
+   <property name="geometry">
+    <rect>
+     <x>36</x>
+     <y>26</y>
+     <width>220</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>220</width>
+     <height>55</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/image/life_ring2.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_GotoOfficialWeb">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>340</y>
+     <width>140</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	font-size:20px;
+}
+QPushButton#btn_GotoOfficialWeb{
+border-top-right-radius:20px;
+border-bottom-right-radius:20px;
+background-color:#CEE3F6;
+color: #0080FF;
+
+}
+QPushButton:hover#btn_GotoOfficialWeb{
+
+color: #01DFD7;
+}
+
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>前往官网</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>508</x>
+     <y>90</y>
+     <width>131</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(110, 110, 110);
+font-size:27px;</string>
+   </property>
+   <property name="text">
+    <string>用户登录</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>MyLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header location="global">mylineedit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>ComboBox</class>
+   <extends>QComboBox</extends>
+   <header location="global">combobox.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

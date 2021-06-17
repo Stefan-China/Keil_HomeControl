@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/Baidu_JS/BDMap.html</file>
+        <file>res/Baidu_JS/LOGO_BLACK/sos.png</file>
+        <file>res/Baidu_JS/LOGO_BLACK/Water.png</file>
+        <file>res/Baidu_JS/LOGO_BLACK/人工.png</file>
+        <file>res/Baidu_JS/LOGO_BLACK/医生.png</file>
+        <file>res/Baidu_JS/LOGO_BLACK/家属.png</file>
+        <file>res/Baidu_JS/LOGO_BLACK/护士.png</file>
+        <file>res/Baidu_JS/LOGO_BLACK/电灯.png</file>
+        <file>res/Baidu_JS/LOGO_BLACK/看护,护理,护士,nurse.png</file>
+        <file>res/Baidu_JS/LOGO_BLACK/空调.png</file>
+        <file>res/Baidu_JS/LOGO_BLACK/窗户-开.png</file>
+        <file>res/Baidu_JS/LOGO_BLACK/门锁.png</file>
+        <file>res/Baidu_JS/LOGO_BLACK/食堂-01.png</file>
+        <file>res/Baidu_JS/LOGO_COLOR/sos.png</file>
+        <file>res/Baidu_JS/LOGO_COLOR/Water.png</file>
+        <file>res/Baidu_JS/LOGO_COLOR/人工.png</file>
+        <file>res/Baidu_JS/LOGO_COLOR/医生.png</file>
+        <file>res/Baidu_JS/LOGO_COLOR/家属.png</file>
+        <file>res/Baidu_JS/LOGO_COLOR/护士.png</file>
+        <file>res/Baidu_JS/LOGO_COLOR/电灯.png</file>
+        <file>res/Baidu_JS/LOGO_COLOR/电视.png</file>
+        <file>res/Baidu_JS/LOGO_COLOR/看护,护理,护士,nurse.png</file>
+        <file>res/Baidu_JS/LOGO_COLOR/空调.png</file>
+        <file>res/Baidu_JS/LOGO_COLOR/窗户-开.png</file>
+        <file>res/Baidu_JS/LOGO_COLOR/门锁.png</file>
+        <file>res/Baidu_JS/LOGO_COLOR/食堂-01.png</file>
+        <file>res/Baidu_JS/BMapLib_GeoUtils.js</file>
+        <file>res/Baidu_JS/DrawingManager.js</file>
+        <file>res/Baidu_JS/GeoUtils_min.js</file>
+        <file>res/Baidu_JS/home.png</file>
+        <file>res/Baidu_JS/qwebchannel.js</file>
+        <file>res/Baidu_JS/LOGO_BLACK/电视.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/blue_pants.png</file>
+        <file>image/btn_Close .png</file>
+        <file>image/btn_Close _hover.png</file>
+        <file>image/btn_Max .png</file>
+        <file>image/btn_Max_hover.png</file>
+        <file>image/btn_Min.png</file>
+        <file>image/btn_Min_hover.png</file>
+        <file>image/checked_1.png</file>
+        <file>image/checked_2.png</file>
+        <file>image/Close.png</file>
+        <file>image/Close_hover.png</file>
+        <file>image/Close01.png</file>
+        <file>image/Close02.png</file>
+        <file>image/comboBox_btn (1).png</file>
+        <file>image/comboBox_btn (2).png</file>
+        <file>image/comboBox_btn (3).png</file>
+        <file>image/Login_BG.png</file>
+        <file>image/Login_BGx.png</file>
+        <file>image/Login_BGxx.png</file>
+        <file>image/Login_BGxxxxx.png</file>
+        <file>image/login_wait4.gif</file>
+        <file>image/Love.png</file>
+        <file>image/Min.png</file>
+        <file>image/Min_hover.png</file>
+        <file>image/Min01.png</file>
+        <file>image/RegisterSuccess.png</file>
+        <file>image/unchecked_1.png</file>
+        <file>image/unchecked_2.png</file>
+        <file>image/life_ring2.png</file>
+        <file>image/btn_bukejian2.png</file>
+        <file>image/btn_kejian2.png</file>
+    </qresource>
+</RCC>

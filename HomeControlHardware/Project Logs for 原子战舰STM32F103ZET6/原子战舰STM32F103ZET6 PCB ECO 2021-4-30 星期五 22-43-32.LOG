@@ -1,0 +1,107 @@
+Change Component Designator: OldDesignator=P? NewDesignator=P1
+Change Component Designator: OldDesignator=U? NewDesignator=U1
+Change Component Designator: OldDesignator=U? NewDesignator=U2
+Added Component: Designator=P2(Header4X2)
+Added Component: Designator=P3(Header12)
+Added Pin To Net: NetName=GND Pin=P2-1
+Added Pin To Net: NetName=3V3 Pin=P2-2
+Added Pin To Net: NetName=PC4 Pin=U1-38
+Added Pin To Net: NetName=PB1 Pin=U1-39
+Added Pin To Net: NetName=PB0 Pin=U1-40
+Added Pin To Net: NetName=PB10 Pin=U1-57
+Added Pin To Net: NetName=PE15 Pin=U1-58
+Added Pin To Net: NetName=PB11 Pin=U1-60
+Added Pin To Net: NetName=PA0 Pin=U1-30
+Added Net: Name=PA0
+Added Pin To Net: NetName=PA1 Pin=U1-29
+Added Net: Name=PA1
+Added Pin To Net: NetName=PB2 Pin=U1-42
+Added Net: Name=PB2
+Added Pin To Net: NetName=PC0 Pin=U1-22
+Added Net: Name=PC0
+Added Pin To Net: NetName=PC1 Pin=U1-21
+Added Net: Name=PC1
+Added Pin To Net: NetName=PC2 Pin=U1-24
+Added Net: Name=PC2
+Added Pin To Net: NetName=PC3 Pin=U1-23
+Added Net: Name=PC3
+Added Pin To Net: NetName=PC5 Pin=U1-37
+Added Net: Name=PC5
+Added Pin To Net: NetName=PE2 Pin=P3-1
+Added Pin To Net: NetName=PE2 Pin=U1-2
+Added Net: Name=PE2
+Added Pin To Net: NetName=PE3 Pin=P3-2
+Added Pin To Net: NetName=PE3 Pin=U1-1
+Added Net: Name=PE3
+Added Pin To Net: NetName=PE4 Pin=P3-3
+Added Pin To Net: NetName=PE4 Pin=U1-4
+Added Net: Name=PE4
+Added Pin To Net: NetName=PE5 Pin=P3-4
+Added Pin To Net: NetName=PE5 Pin=U1-3
+Added Net: Name=PE5
+Added Pin To Net: NetName=PE6 Pin=P3-5
+Added Pin To Net: NetName=PE6 Pin=U1-6
+Added Net: Name=PE6
+Added Pin To Net: NetName=PE7 Pin=U1-50
+Added Net: Name=PE7
+Added Pin To Net: NetName=PE8 Pin=U1-49
+Added Net: Name=PE8
+Added Pin To Net: NetName=PE9 Pin=U1-52
+Added Net: Name=PE9
+Added Pin To Net: NetName=PE10 Pin=U1-51
+Added Net: Name=PE10
+Added Pin To Net: NetName=PE11 Pin=U1-54
+Added Net: Name=PE11
+Added Pin To Net: NetName=PE12 Pin=U1-53
+Added Net: Name=PE12
+Added Pin To Net: NetName=PE13 Pin=U1-56
+Added Net: Name=PE13
+Added Pin To Net: NetName=PE14 Pin=U1-55
+Added Net: Name=PE14
+Added Pin To Net: NetName=PF0 Pin=P3-6
+Added Pin To Net: NetName=PF0 Pin=U1-9
+Added Net: Name=PF0
+Added Pin To Net: NetName=PF1 Pin=P3-7
+Added Pin To Net: NetName=PF1 Pin=U1-12
+Added Net: Name=PF1
+Added Pin To Net: NetName=PF2 Pin=P3-8
+Added Pin To Net: NetName=PF2 Pin=U1-11
+Added Net: Name=PF2
+Added Pin To Net: NetName=PF3 Pin=P3-9
+Added Pin To Net: NetName=PF3 Pin=U1-14
+Added Net: Name=PF3
+Added Pin To Net: NetName=PF4 Pin=P3-10
+Added Pin To Net: NetName=PF4 Pin=U1-13
+Added Net: Name=PF4
+Added Pin To Net: NetName=PF5 Pin=P3-11
+Added Pin To Net: NetName=PF5 Pin=U1-16
+Added Net: Name=PF5
+Added Pin To Net: NetName=PF6 Pin=P3-12
+Added Pin To Net: NetName=PF6 Pin=U1-15
+Added Net: Name=PF6
+Added Pin To Net: NetName=PF7 Pin=U1-18
+Added Net: Name=PF7
+Added Pin To Net: NetName=PF8 Pin=U1-17
+Added Net: Name=PF8
+Added Pin To Net: NetName=PF9 Pin=U1-20
+Added Net: Name=PF9
+Added Pin To Net: NetName=PF10 Pin=U1-19
+Added Net: Name=PF10
+Added Pin To Net: NetName=PF11 Pin=U1-41
+Added Net: Name=PF11
+Added Pin To Net: NetName=PF12 Pin=U1-44
+Added Net: Name=PF12
+Added Pin To Net: NetName=PF13 Pin=U1-43
+Added Net: Name=PF13
+Added Pin To Net: NetName=PF14 Pin=U1-46
+Added Net: Name=PF14
+Added Pin To Net: NetName=PF15 Pin=U1-45
+Added Net: Name=PF15
+Added Pin To Net: NetName=PG0 Pin=U1-48
+Added Net: Name=PG0
+Added Pin To Net: NetName=PG1 Pin=U1-47
+Added Net: Name=PG1
+Added Member To Class: ClassName=原子战舰STM32F103ZET6 Member=Component P2 Header4X2
+Added Member To Class: ClassName=原子战舰STM32F103ZET6 Member=Component P3 Header12
+Added Member To Class: ClassName=原子战舰STM32F103ZET6 Member=Component U2 Mini_24L01
+Added Room: Name=原子战舰STM32F103ZET6

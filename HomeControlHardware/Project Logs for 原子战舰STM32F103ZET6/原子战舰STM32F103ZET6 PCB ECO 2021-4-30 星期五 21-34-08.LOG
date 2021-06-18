@@ -1,0 +1,29 @@
+Removed Pin From Net: NetName=GND Pin=U2-5
+Removed Pin From Net: NetName=5.0V Pin=U2-6
+Removed Member From Class: ClassName=原子战舰STM32F103ZET6 Member=R1
+Removed Member From Class: ClassName=原子战舰STM32F103ZET6 Member=R1
+Removed Member From Class: ClassName=原子战舰STM32F103ZET6 Member=U2
+Added Component: Designator=P?(Header5)
+Added Component: Designator=U?(MINI_24L01)
+Added Pin To Net: NetName=GND Pin=P?-4
+Added Pin To Net: NetName=5.0V Pin=P?-5
+Added Pin To Net: NetName=GND Pin=U?-1
+Added Pin To Net: NetName=3V3 Pin=U?-2
+Added Pin To Net: NetName=PA5 Pin=U?-5
+Added Pin To Net: NetName=PA7 Pin=U?-6
+Added Pin To Net: NetName=PA6 Pin=U?-7
+Added Pin To Net: NetName=PB0 Pin=U?-3
+Added Net: Name=PB0
+Added Pin To Net: NetName=PB1 Pin=U?-8
+Added Net: Name=PB1
+Added Pin To Net: NetName=PB10 Pin=P?-2
+Added Net: Name=PB10
+Added Pin To Net: NetName=PB11 Pin=P?-3
+Added Net: Name=PB11
+Added Pin To Net: NetName=PC4 Pin=U?-4
+Added Net: Name=PC4
+Added Pin To Net: NetName=PE15 Pin=P?-1
+Added Net: Name=PE15
+Added Member To Class: ClassName=原子战舰STM32F103ZET6 Member=Component P? Header5
+Added Member To Class: ClassName=原子战舰STM32F103ZET6 Member=Component U? Mini_24L01
+Added Room: Name=原子战舰STM32F103ZET6

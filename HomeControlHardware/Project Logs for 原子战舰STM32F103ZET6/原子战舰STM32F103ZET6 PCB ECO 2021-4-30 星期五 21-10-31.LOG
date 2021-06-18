@@ -1,0 +1,12 @@
+Added Component: Designator=U?(STM32)
+Added Pin To Net: NetName=PA3 Pin=U?-31
+Added Pin To Net: NetName=PA2 Pin=U?-32
+Added Pin To Net: NetName=PA5 Pin=U?-33
+Added Pin To Net: NetName=PA4 Pin=U?-34
+Added Pin To Net: NetName=PA7 Pin=U?-35
+Added Pin To Net: NetName=PA6 Pin=U?-36
+Added Pin To Net: NetName=5V Pin=U?-59
+Added Pin To Net: NetName=GND Pin=U?-90
+Added Pin To Net: NetName=3V3 Pin=U?-91
+Added Member To Class: ClassName=原子战舰STM32F103ZET6 Member=Component U? STM32
+Added Room: Name=原子战舰STM32F103ZET6

@@ -1,0 +1,10 @@
+Added Pin To Net: NetName=GND Pin=P4-3
+Added Pin To Net: NetName=5.0V Pin=P4-4
+Added Pin To Net: NetName=PC10 Pin=U6-5
+Added Net: Name=PC10
+Added Pin To Net: NetName=PC11 Pin=U6-4
+Added Net: Name=PC11
+Added Pin To Net: NetName=PC12 Pin=P4-2
+Added Net: Name=PC12
+Added Pin To Net: NetName=PD2 Pin=P4-1
+Added Net: Name=PD2

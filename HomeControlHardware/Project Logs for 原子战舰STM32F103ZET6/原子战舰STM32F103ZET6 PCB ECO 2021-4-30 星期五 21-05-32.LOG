@@ -1,0 +1,30 @@
+Removed Pin From Net: NetName=PA3 Pin=U？1-31
+Removed Pin From Net: NetName=PA2 Pin=U？1-32
+Removed Pin From Net: NetName=PA5 Pin=U？1-33
+Removed Pin From Net: NetName=PA4 Pin=U？1-34
+Removed Pin From Net: NetName=PA7 Pin=U？1-35
+Removed Pin From Net: NetName=PA6 Pin=U？1-36
+Removed Pin From Net: NetName=5V Pin=U？1-59
+Removed Pin From Net: NetName=GND Pin=U？1-90
+Removed Pin From Net: NetName=3V3 Pin=U？1-91
+Removed Member From Class: ClassName=原子战舰STM32F103ZET6 Member=P6
+Change Component Designator: OldDesignator= NewDesignator=K2
+Added Component: Designator=U?(STM32)
+Added Pin To Net: NetName=PA3 Pin=U?-31
+Added Pin To Net: NetName=PA2 Pin=U?-32
+Added Pin To Net: NetName=PA5 Pin=U?-33
+Added Pin To Net: NetName=PA4 Pin=U?-34
+Added Pin To Net: NetName=PA7 Pin=U?-35
+Added Pin To Net: NetName=PA6 Pin=U?-36
+Added Pin To Net: NetName=5V Pin=U?-59
+Added Pin To Net: NetName=GND Pin=U?-90
+Added Pin To Net: NetName=3V3 Pin=U?-91
+Added Member To Class: ClassName=原子战舰STM32F103ZET6 Member=Component K1 SW
+Added Member To Class: ClassName=原子战舰STM32F103ZET6 Member=Component K2 SW
+Added Member To Class: ClassName=原子战舰STM32F103ZET6 Member=Component K3 SW-TP
+Added Member To Class: ClassName=原子战舰STM32F103ZET6 Member=Component K4 SW-TP
+Added Member To Class: ClassName=原子战舰STM32F103ZET6 Member=Component R5 10K
+Added Member To Class: ClassName=原子战舰STM32F103ZET6 Member=Component R6 10k
+Added Member To Class: ClassName=原子战舰STM32F103ZET6 Member=Component U5 ESP-12
+Added Member To Class: ClassName=原子战舰STM32F103ZET6 Member=Component U? STM32
+Added Room: Name=原子战舰STM32F103ZET6

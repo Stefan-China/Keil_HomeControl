@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=5V Pin=U1-59
+Added Component: Designator=P?(Header2)
+Added Component: Designator=U?(Voice)
+Added Pin To Net: NetName=5.0V Pin=U1-59
+Added Pin To Net: NetName=5.0V Pin=U?-2
+Added Pin To Net: NetName=GND Pin=U?-3
+Added Pin To Net: NetName=NetP?_1 Pin=P?-1
+Added Pin To Net: NetName=NetP?_1 Pin=U?-1
+Added Net: Name=NetP?_1
+Added Pin To Net: NetName=NetP?_2 Pin=P?-2
+Added Pin To Net: NetName=NetP?_2 Pin=U?-0
+Added Net: Name=NetP?_2
+Added Member To Class: ClassName=原子战舰STM32F103ZET6 Member=Component P? Header2
+Added Member To Class: ClassName=原子战舰STM32F103ZET6 Member=Component U? Voice

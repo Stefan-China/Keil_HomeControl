@@ -1,0 +1,12 @@
+Change Component Designator: OldDesignator=P? NewDesignator=P5
+Change Component Designator: OldDesignator=U? NewDesignator=U6
+Added Component: Designator=P4(Header4)
+Added Pin To Net: NetName=PF7 Pin=P2-3
+Added Pin To Net: NetName=PF8 Pin=P2-4
+Added Pin To Net: NetName=PF10 Pin=P2-5
+Added Pin To Net: NetName=PF9 Pin=P2-6
+Added Pin To Net: NetName=3V3 Pin=P2-7
+Added Pin To Net: NetName=GND Pin=P2-8
+Change Net Name : Old Net Name=NetP?_1 New Net Name=NetP5_1
+Change Net Name : Old Net Name=NetP?_2 New Net Name=NetP5_2
+Added Member To Class: ClassName=Ô­×ÓÕ½½¢STM32F103ZET6 Member=Component P4 Header4

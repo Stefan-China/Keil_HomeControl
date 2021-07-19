@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Button>
     <ButtonNum>12</ButtonNum>
-    <Buttontext0>1</Buttontext0>
-    <Buttontext1>2</Buttontext1>
-    <Buttontext2>3</Buttontext2>
-    <Buttontext3>4</Buttontext3>
-    <Buttontext4>5</Buttontext4>
-    <Buttontext5>6</Buttontext5>
-    <Buttontext6>7</Buttontext6>
-    <Buttontext7>8</Buttontext7>
-    <Buttontext8>9</Buttontext8>
-    <Buttontext9>10</Buttontext9>
-    <Buttontext10>11</Buttontext10>
-    <Buttontext11>12</Buttontext11>
+    <Buttontext0>卧室</Buttontext0>
+    <Buttontext1>房门</Buttontext1>
+    <Buttontext2>饮水机</Buttontext2>
+    <Buttontext3>窗帘</Buttontext3>
+    <Buttontext4>空调</Buttontext4>
+    <Buttontext5>电视</Buttontext5>
+    <Buttontext6>家属</Buttontext6>
+    <Buttontext7>客厅</Buttontext7>
+    <Buttontext8>医生</Buttontext8>
+    <Buttontext9>保姆</Buttontext9>
+    <Buttontext10>餐食</Buttontext10>
+    <Buttontext11>紧急呼叫</Buttontext11>
     <Buttontext12>13</Buttontext12>
     <Buttontext13>14</Buttontext13>
     <Buttontext14>15</Buttontext14>

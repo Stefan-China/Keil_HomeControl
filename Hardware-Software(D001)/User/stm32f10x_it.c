@@ -138,7 +138,7 @@ void TIM3_IRQHandler(void)
 					break;			
 		}
 		Ping_flag++;           		             		 //Ping_flag自增1，表示又发送了一次ping，期待服务器的回复
-		TempHumi_State();
+		//TempHumi_State();
 		
 		TIM_ClearITPendingBit(TIM3, TIM_IT_Update);      //清除TIM3溢出中断标志 	
 	}
@@ -147,7 +147,7 @@ void TIM2_IRQHandler(void)
 {	
 	if(TIM_GetITStatus(TIM2, TIM_IT_Update) != RESET){  //如果TIM_IT_Update置位，表示TIM2溢出中断，进入if	
 		//TempHumi_State();
-		
+		Command_State();
 		TIM_ClearITPendingBit(TIM2, TIM_IT_Update);     //清除TIM2溢出中断标志 	
 	}
 }
